@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/styles/app.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+    <section id="Calculator">
+        <input type="text" id="input-number">
+        <div id="calc-actions">
+            <section id="num">
+            <button type="button" id="clear"><i class="fa-solid fa-c"></i></button>
+            <button type="button" id="del"><i class="fa-solid fa-delete-left"></i></button>
+            <button type="button" id="percent"><i class="fa-solid fa-percent"></i></button>
+            <button type="button" id="power"><i class="fa-solid fa-superscript"></i></button>
+        </section>
+            <section id="num">
+
+            <button type="button" id="seven"><i class="fa-solid fa-7"></i></button>
+            <button type="button" id="eight"><i class="fa-solid fa-8"></i></button>
+            <button type="button" id="nine"><i class="fa-solid fa-9"></i></button>
+            <button type="button" id="mul"><i class="fa-solid fa-xmark"></i></button>
+        </section>
+            <section id="num">
+
+            <button type="button" id="four"><i class="fa-solid fa-4"></i></button>
+            <button type="button" id="five"><i class="fa-solid fa-5"></i></button>
+            <button type="button" id="six"><i class="fa-solid fa-6"></i></button>
+            <button type="button" id="div"><i class="fa-solid fa-divide"></i></button>
+        </section>
+            <section id="num">
+
+            <button type="button" id="one"><i class="fa-solid fa-1"></i></button>
+            <button type="button" id="two"><i class="fa-solid fa-2"></i></button>
+            <button type="button" id="three"><i class="fa-solid fa-3"></i></button>
+            <button type="button" id="mines"><i class="fa-solid fa-minus"></i></button>
+        </section>
+            <section id="num">
+
+            <button type="button" id="dot">.</button>
+            <button type="button" id="zero"><i class="fa-solid fa-0"></i></button>
+            <button type="button" id="equals"><i class="fa-solid fa-equals"></i></button>
+            <button type="button" id="add"><i class="fa-solid fa-plus"></i></button>
+        </section>
+
+        </div>
+    </section>
+    <section id="results">
+        <h2>Operations: <span id="current-calculation">0</span></h2>
+        <h2>Result: <span id="current-result">0</span></h2>
+    </section>
+</body>
+<script src="./assets/scripts/vendor.js"></script>
+<script src="./assets/scripts/app.js"></script>
+
+</html>

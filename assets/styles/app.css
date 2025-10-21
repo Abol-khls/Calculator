@@ -1,0 +1,99 @@
+@font-face {
+    font-family: rubik;
+    src: url(../font/Rubik/static/Rubik-Bold.ttf);
+}
+body {
+  background-color: darkslategray;
+  color: #F2F2F2;
+  font-family: "Segoe UI", sans-serif;
+}
+
+header {
+  background-color: #1E3A5F;
+  color: #F2F2F2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 10px 0;
+}
+
+header :hover {
+  transform: scale(1.03);
+}
+
+#Calculator {
+  background-color: #2E8BC0;
+  color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-top: 12px;
+  gap: 12px;
+  padding: 10px 0;
+}
+
+#Calculator #input-number {
+  border-radius: 10px;
+  height: 56px;
+  width: 480px;
+  text-align: center;
+  font-size: xx-large;
+  background-color: white;
+  color: #333;
+  border: none;
+  font-family: rubik;
+}
+
+#Calculator #calc-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+#Calculator #calc-actions #num {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+#Calculator #calc-actions #num button {
+  width: 118px;
+  height: 62px;
+  border-radius: 6px;
+  border: none;
+  background-color: #1F6F8B;
+  color: white;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+#Calculator #calc-actions #num button:hover {
+  background-color: #155D74;
+  transform: scale(1.03);
+}
+
+
+#results {
+  background-color: #2E8BC0;
+  color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  
+}
+
+#results :hover {
+  transform: scale(1.03);
+}

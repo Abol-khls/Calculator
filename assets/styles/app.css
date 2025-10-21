@@ -70,7 +70,7 @@ header :hover {
 #Calculator #calc-actions #num button {
   width: 118px;
   height: 62px;
-  max-width: 22%;   /* اجازه می‌ده در موبایل کوچک بشه */
+  max-width: 22%; 
   min-width: 50px; 
   border-radius: 6px;
   border: none;

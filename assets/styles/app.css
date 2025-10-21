@@ -40,7 +40,8 @@ header :hover {
 #Calculator #input-number {
   border-radius: 10px;
   height: 56px;
-  width: 480px;
+  width: 435px;
+  max-width: 90%; 
   text-align: center;
   font-size: xx-large;
   background-color: white;
@@ -60,6 +61,7 @@ header :hover {
 #Calculator #calc-actions #num {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap; 
   align-items: center;
   justify-content: center;
   gap: 4px;
@@ -68,6 +70,8 @@ header :hover {
 #Calculator #calc-actions #num button {
   width: 118px;
   height: 62px;
+  max-width: 22%;   /* اجازه می‌ده در موبایل کوچک بشه */
+  min-width: 50px; 
   border-radius: 6px;
   border: none;
   background-color: #1F6F8B;
@@ -96,4 +100,15 @@ header :hover {
 
 #results :hover {
   transform: scale(1.03);
+}
+@media (max-width: 720px) {
+  #Calculator #input-number {
+    font-size: large;
+    height: 48px;
+  }
+
+  #Calculator #calc-actions #num button {
+    font-size: small;
+    height: 48px;
+  }
 }

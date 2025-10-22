@@ -6,13 +6,13 @@ A simple web-based calculator project.
 This repository contains a minimal calculator web app built with HTML, CSS, and JavaScript. It provides basic arithmetic operations and a simple UI.
 
 ## Files
-- `index.html` — Main HTML file that loads the app.
-- `styles/app.css` — CSS for the UI.
-- `scripts/app.js` — Main application logic.
-- `scripts/vendor.js` — Third-party/vendor JS (if any).
-- `assets/font/Rubik/static/` — Local font files used by the UI.
-- `vendor/` — Any external libraries or assets.
-
+|File Name|Discription|
+|---------|-----------|
+| `index.html`|Main HTML file that loads the app. |
+|`styles/app.css` |CSS for the UI. |
+|`scripts/app.js` |Main application logic. |
+|`scripts/vendor.js` |Third-party/vendor JS (if any). |
+|`assets/font/Rubik/static/` | Local font files used by the UI.|
 ## How to run
 1. Open `index.html` in a web browser. No build step required.
 

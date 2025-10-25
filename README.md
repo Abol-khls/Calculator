@@ -1,7 +1,4 @@
 # Calculator
-
-A simple web-based calculator project.
-
 ## Overview
 This repository contains a minimal calculator web app built with HTML, CSS, and JavaScript. It provides basic arithmetic operations and a simple UI.
 
